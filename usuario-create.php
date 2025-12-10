@@ -30,7 +30,7 @@ require("conexao.php");
                         </h4>
                     </div>
                     <div class="card-body">
-                        <form action="" method="POST">
+                        <form action="acoes.php" method="POST">
                             <div class="mb-3">
                                 <label for="nome">Nome</label>
                                 <input type="text" name="nome" id="" class="form-control">
@@ -43,7 +43,7 @@ require("conexao.php");
 
                             <div class="mb-3">
                                 <label for="nome">Data de Nascimento</label>
-                                <input type="date" name="data-nascimento" id="" class="form-control">
+                                <input type="date" name="data_nascimento" id="" class="form-control">
                             </div>
 
                             <div class="mb-3">
