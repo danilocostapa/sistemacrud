@@ -37,18 +37,32 @@ require("conexao.php");
                             </div>
 
                             <div class="mb-3">
-                                <label for="nome">Nome</label>
-                                <input type="text" name="nome" id="" class="form-control">
+                                <label for="nome">Email</label>
+                                <input type="email" name="email" id="" class="form-control">
                             </div>
 
                             <div class="mb-3">
-                                <label for="nome">Nome</label>
-                                <input type="text" name="nome" id="" class="form-control">
+                                <label for="nome">Data de Nascimento</label>
+                                <input type="date" name="data-nascimento" id="" class="form-control">
                             </div>
 
                             <div class="mb-3">
-                                <label for="nome">Nome</label>
-                                <input type="text" name="nome" id="" class="form-control">
+                                <label for="nome">Senha</label>
+                                <input type="password" name="senha" id="" class="form-control">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="perfil">Perfil</label>
+                                <select class="form-select" aria-label="Default select example" name="perfil">
+                                    <option selected>Selecione..</option>
+                                    <option value="1">Administrador</option>
+                                    <option value="2">Programador</option>
+                                    <option value="3">Suporte</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <button type="submit" class="btn btn-primary" name="create-user">Salvar</button>
                             </div>
                         </form>
                     </div>
