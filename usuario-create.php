@@ -37,17 +37,17 @@ require("conexao.php");
                             </div>
 
                             <div class="mb-3">
-                                <label for="nome">Email</label>
+                                <label for="email">Email</label>
                                 <input type="email" name="email" id="" class="form-control">
                             </div>
 
                             <div class="mb-3">
-                                <label for="nome">Data de Nascimento</label>
+                                <label for="data_nascimento">Data de Nascimento</label>
                                 <input type="date" name="data_nascimento" id="" class="form-control">
                             </div>
 
                             <div class="mb-3">
-                                <label for="nome">Senha</label>
+                                <label for="senha">Senha</label>
                                 <input type="password" name="senha" id="" class="form-control">
                             </div>
 
