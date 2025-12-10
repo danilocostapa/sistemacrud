@@ -20,7 +20,43 @@ require("conexao.php");
     include("navbar.php")
     ?>
 
-    
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Adicionar Usuário
+                            <a href="index.php" class="btn btn-danger float-end">Voltar</a>
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <form action="" method="POST">
+                            <div class="mb-3">
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome" id="" class="form-control">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome" id="" class="form-control">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome" id="" class="form-control">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome" id="" class="form-control">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 
