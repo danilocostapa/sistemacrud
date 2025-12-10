@@ -33,6 +33,7 @@
                                     <th>Nome</th>
                                     <th>Email</th>
                                     <th>Data Nascimento</th>
+                                    <th>Perfil</th>
                                     <th>Ações</th>
                                 </tr>
                             </thead>
@@ -42,6 +43,11 @@
                                 <td>bass.danilo@gmail.com</td>
                                 <td>08/08/1985</td>
                                 <td>Administrador</td>
+                                <td>
+                                    <a href="" class="btn btn-secondary btn-sm">Ver</a>
+                                    <a href="" class="btn btn-success btn-sm">Editar</a>
+                                    <form action="" method="POST" class="d-inline"></form>
+                                </td>
                             </tbody>
                         </table>
                     </div>
