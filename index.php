@@ -1,3 +1,8 @@
+<?php
+require("conexao.php");
+
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -46,7 +51,9 @@
                                 <td>
                                     <a href="" class="btn btn-secondary btn-sm">Ver</a>
                                     <a href="" class="btn btn-success btn-sm">Editar</a>
-                                    <form action="" method="POST" class="d-inline"></form>
+                                    <form action="" method="POST" class="d-inline">
+                                        <button type="submit" name="deletar_usuario" class="btn btn-danger btn-sm">Excluir</button>
+                                    </form>
                                 </td>
                             </tbody>
                         </table>
