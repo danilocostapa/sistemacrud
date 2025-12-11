@@ -1,5 +1,5 @@
 <?php
-require("conexao.php");
+require('conexao.php');
 
 ?>
 
@@ -49,10 +49,10 @@ require("conexao.php");
                                 <td>08/08/1985</td>
                                 <td>Administrador</td>
                                 <td>
-                                    <a href="" class="btn btn-secondary btn-sm">Ver</a>
+                                    <a href="" class="btn btn-secondary btn-sm">Visualizar</a>
                                     <a href="" class="btn btn-success btn-sm">Editar</a>
                                     <form action="" method="POST" class="d-inline">
-                                        <button type="submit" name="deletar_usuario" class="btn btn-danger btn-sm">Excluir</button>
+                                        <button type="submit" name="deletar_usuario" value="1" class="btn btn-danger btn-sm">Excluir</button>
                                     </form>
                                 </td>
                             </tbody>
