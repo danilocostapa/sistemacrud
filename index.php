@@ -21,7 +21,7 @@ require('conexao.php');
     ?>
 
     <div class="container mt-4">
-        <?php include('mensagem.php') ?>
+        <?php include('mensagem.php'); ?>
         <div class="row">
             <div class="col-md-12">
                 <div class="card">

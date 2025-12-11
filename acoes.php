@@ -24,11 +24,11 @@ if (isset($_POST['create-user'])) { //se o botão estiver setado
     /*verificando se o usuário foi criado ou nao */
     if (mysqli_affected_rows($conexao) > 0) {
 
-        $_SESSION["mensagem"] = "Usuário criado com sucesso.";
+        $_SESSION['mensagem'] = 'Usuário criado com sucesso.';
         header('Location: index.php'); //manda o usuário para a index
         exit;
     } else {
-        $_SESSION["mensagem"] = "Usuário não foi criado.";
+        $_SESSION['mensagem'] = 'Usuário não foi criado.';
         header('Location: index.php'); //manda o usuário para a index
         exit;
     }
