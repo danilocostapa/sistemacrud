@@ -6,5 +6,3 @@ define('SENHA', '');
 define('DB', 'sistemacrud');
 
 $conexao = mysqli_connect(HOST, USUARIO, SENHA, DB) or die('Erro ao conectar ao banco');
-
-?>
